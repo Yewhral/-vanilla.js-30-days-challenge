@@ -10,3 +10,4 @@ What did I learn so far:
 - querySelector
 - new backticks from ES6 usage
 - kbd tag (neat!)
+- pure CSS variables
