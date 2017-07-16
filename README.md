@@ -11,3 +11,5 @@ What did I learn so far:
 - new backticks from ES6 usage
 - kbd tag (neat!)
 - pure CSS variables
+- console.table (woah!)
+- array.map & array.sort & array.reduce
