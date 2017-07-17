@@ -13,3 +13,4 @@ What did I learn so far:
 - pure CSS variables
 - console.table (woah!)
 - array.map & array.sort & array.reduce
+- flex gallery (I need to read more about this, looks awesome)
