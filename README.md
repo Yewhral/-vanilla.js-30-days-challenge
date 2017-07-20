@@ -17,3 +17,4 @@ What did I learn so far:
 - fetch() <- my favourite so far
 - array.some & array.find
 - destructuring assignment
+- console.time for checking how long things take
