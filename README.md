@@ -16,3 +16,4 @@ What did I learn so far:
 - flex gallery (I need to read more about this, looks awesome)
 - fetch() <- my favourite so far
 - array.some & array.find
+- destructuring assignment
