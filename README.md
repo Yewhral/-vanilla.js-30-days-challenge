@@ -19,3 +19,4 @@ What did I learn so far:
 - destructuring assignment
 - console.time for checking how long things take
 - window.scrollY
+- Object.assign
