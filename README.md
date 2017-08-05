@@ -20,3 +20,4 @@ What did I learn so far:
 - console.time for checking how long things take
 - window.scrollY
 - Object.assign
+- trim() - removes whitespace from both sides of a string
