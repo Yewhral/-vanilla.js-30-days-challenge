@@ -24,6 +24,11 @@ function paintToCanvas() {
 
     return setInterval(() => {
         ctx.drawImage(video, 0, 0, width, height);
+
+        let pixels = ctx.getImageData(0,0,width,height);
+        pixels = rgbSplit(pixels);
+        ctx.globalAlpha = 0.1;
+        ctx.putImageData(pixels,0,0);
     }, 16);
 }
 
@@ -39,6 +44,23 @@ function takePhoto(){
    // link.textContent='Download image';
     strip.insertBefore(link, strip.firstChild);
 }
+
+function redEffect(pixels){
+    for(let i = 0; i<pixels.data.length ; i+=4) {
+        pixels.data[i] = pixels.data[i] + 200;
+    }
+    return pixels;
+}
+
+function rgbSplit(pixels) {
+    for(let i = 0; i < pixels.data.length; i+=4) {
+        pixels.data[i - 150] = pixels.data[i + 0]; // RED
+        pixels.data[i + 500] = pixels.data[i + 1]; // GREEN
+        pixels.data[i - 550] = pixels.data[i + 2]; // Blue
+    }
+    return pixels;
+}
+
 
 getVideo();
 

@@ -21,3 +21,4 @@ What did I learn so far:
 - window.scrollY
 - Object.assign
 - trim() - removes whitespace from both sides of a string
+- camera manipulation (day 19 is insane!)
