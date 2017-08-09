@@ -1,14 +1,11 @@
 html {
     box-sizing: border-box;
+    font-size: 10px;
+    background:#ffc600;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-html {
-    font-size: 10px;
-    background:#ffc600;
 }
 
 .photobooth {
